@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="CSS/1140.css" rel="stylesheet" />
+    <link href="CSS/vader/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.2.js"></script>
+    <script src="js/jquery-ui-1.9.1.custom.min.js"></script>
+    <script src="js/script1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="threecol">
+                <div id="rojo"></div><br />
+                <div id="azul"></div><br />
+                <div id="verde"></div><br />
+               <div id="miDeslizador"></div>
+                <p> valor slider : <span id="deslizador"></span></p>
+                 <input id="Button1" type="button" value="deshabilita" onclick="deshabilita(1);"/>
+                <input id="Button2" type="button" value="añade tab" onclick="ponUnTabMas();"/>
+                <input id="Button3" type="button" value="borra tab" onclick="quitaUnTabMas();"/>
+            </div>
+            <div class="fourcol">
+                <input id="button4" type="button" value="MUESTRA DIALOGO" onclick="muestraDialogo();"/>
+                <div id="miDialogo" title="esto es el titulo">
+                    titulooo
+                </div>
+                <div id="ejemploTabs">
+                    <ul>
+                        <li><a href="#fragmento1"> <span>UNO</span> </a></li>
+                        <li><a href="#fragmento2"> <span>DOS</span> </a></li>
+                        <li><a href="#fragmento3"> <span>TRES</span> </a></li>
+                    </ul>
+                    <div id="fragmento1"> este es el tab 0</div>
+                    <div id="fragmento2"> este es el tab 1</div>
+                    <div id="fragmento3"> este es el tab 2</div>
+                </div>
+            </div>
+            <div class="fivecol last">
+           
+                <div id="acordeon">
+                    <h2>
+                        <a href="#"> titulo 1</a>
+                    </h2>
+                    <div> texto del primer parrafo</div>
+                    <h2>
+                        <a href="#"> titulo 2</a>
+                    </h2>
+                    <div> texto del segundo parrafo</div>
+                    <h2>
+                        <a href="#"> titulo 3</a>
+                    </h2>
+                    <div> texto del tercer parrafo</div>
+                </div>
+                    <label for="fecha">introduce fecha</label>
+                <input id="fecha" type="text" />
+                <div id="cajaColor">
+                    fsdfasd<br />
+                    sfrsdfsdfsd<br />
+                    fsdfsdfdsf<br />
+                </div>
+            </div>
+       <div class="threecol">
+           <label for="autocompletar2">elige un regalo:</label>
+           <input id="autocompletar2"></input>
+           
+       </div>
+            <div class="twocol">
+                <div id="radio">
+                     <input id="radio1" type="radio"  name="radio" /><label for="radio1">opcion1</label>
+                     <input id="radio2" type="radio" name="radio" checked="checked" /><label for="radio2">opcion2</label>
+                     <input id="radio3" type="radio" name="radio" /><label for="radio3">opcion3</label>
+                     <input id="Checkbox1" type="checkBOX" />
+               </div>
+            </div>
+            <div class="threecol">
+                <div id="progreso">
+                    
+                </div>
+
+            </div>
+       </div>
+    </div>
+</body>
+</html>
